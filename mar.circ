@@ -46,7 +46,6 @@
     <sep/>
     <tool lib="0" name="Pin"/>
     <tool lib="0" name="Pin">
-      <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
     </tool>
@@ -635,40 +634,40 @@
     <comp lib="2" loc="(330,400)" name="Decoder">
       <a name="select" val="4"/>
     </comp>
-    <comp lib="8" loc="(141,787)" name="Text">
-      <a name="text" val="P0"/>
-    </comp>
-    <comp lib="8" loc="(142,829)" name="Text">
-      <a name="text" val="P1"/>
-    </comp>
-    <comp lib="8" loc="(142,912)" name="Text">
-      <a name="text" val="P3"/>
-    </comp>
-    <comp lib="8" loc="(143,872)" name="Text">
-      <a name="text" val="P2"/>
-    </comp>
-    <comp lib="8" loc="(143,986)" name="Text">
-      <a name="text" val="P5"/>
-    </comp>
-    <comp lib="8" loc="(144,1030)" name="Text">
+    <comp lib="8" loc="(140,1030)" name="Text">
       <a name="text" val="A0"/>
     </comp>
-    <comp lib="8" loc="(144,1110)" name="Text">
+    <comp lib="8" loc="(140,1110)" name="Text">
       <a name="text" val="Cr"/>
     </comp>
-    <comp lib="8" loc="(144,1189)" name="Text">
+    <comp lib="8" loc="(140,1185)" name="Text">
       <a name="text" val="Mw"/>
     </comp>
-    <comp lib="8" loc="(144,951)" name="Text">
+    <comp lib="8" loc="(140,785)" name="Text">
+      <a name="text" val="P0"/>
+    </comp>
+    <comp lib="8" loc="(140,825)" name="Text">
+      <a name="text" val="P1"/>
+    </comp>
+    <comp lib="8" loc="(140,870)" name="Text">
+      <a name="text" val="P2"/>
+    </comp>
+    <comp lib="8" loc="(140,910)" name="Text">
+      <a name="text" val="P3"/>
+    </comp>
+    <comp lib="8" loc="(140,950)" name="Text">
       <a name="text" val="P4"/>
     </comp>
-    <comp lib="8" loc="(146,1070)" name="Text">
+    <comp lib="8" loc="(140,985)" name="Text">
+      <a name="text" val="P5"/>
+    </comp>
+    <comp lib="8" loc="(145,1070)" name="Text">
       <a name="text" val="A1"/>
     </comp>
-    <comp lib="8" loc="(147,1149)" name="Text">
+    <comp lib="8" loc="(145,1145)" name="Text">
       <a name="text" val="Mr"/>
     </comp>
-    <comp lib="8" loc="(149,1234)" name="Text">
+    <comp lib="8" loc="(145,1230)" name="Text">
       <a name="text" val="Lalt"/>
     </comp>
     <comp loc="(1150,670)" name="Add">
