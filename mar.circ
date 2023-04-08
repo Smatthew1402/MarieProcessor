@@ -92,11 +92,11 @@
     <sep/>
     <tool lib="4" name="D Flip-Flop"/>
     <tool lib="4" name="Register"/>
+    <sep/>
   </toolbar>
   <circuit name="main">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="0.5"/>
     <comp lib="0" loc="(1180,460)" name="Splitter">
       <a name="appear" val="right"/>
@@ -3527,5 +3527,138 @@
     <wire from="(780,650)" to="(1200,650)"/>
     <wire from="(780,650)" to="(780,950)"/>
     <wire from="(820,870)" to="(820,950)"/>
+  </circuit>
+  <circuit name="Halt">
+    <a name="circuit" val="Halt"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="0.5"/>
+    <comp lib="0" loc="(1000,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="A1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1100,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="Cr"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1200,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="Mr"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1300,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="Mw"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1400,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="Lalt"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(220,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="EN"/>
+    </comp>
+    <comp lib="0" loc="(220,390)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="RingCounter"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(220,390)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="spacing" val="2"/>
+    </comp>
+    <comp lib="0" loc="(270,570)" name="Clock">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(290,850)" name="Ground">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(300,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P0"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(400,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P1"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(500,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P2"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(600,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(700,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P4"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(800,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="P5"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(900,1000)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="A0"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="4" loc="(730,650)" name="Counter">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <wire from="(1000,850)" to="(1000,1000)"/>
+    <wire from="(1000,850)" to="(1100,850)"/>
+    <wire from="(1100,850)" to="(1100,1000)"/>
+    <wire from="(1100,850)" to="(1200,850)"/>
+    <wire from="(1200,850)" to="(1200,1000)"/>
+    <wire from="(1200,850)" to="(1300,850)"/>
+    <wire from="(1300,850)" to="(1300,1000)"/>
+    <wire from="(1300,850)" to="(1400,850)"/>
+    <wire from="(1400,850)" to="(1400,1000)"/>
+    <wire from="(220,200)" to="(1490,200)"/>
+    <wire from="(240,240)" to="(1400,240)"/>
+    <wire from="(240,260)" to="(1400,260)"/>
+    <wire from="(240,280)" to="(1400,280)"/>
+    <wire from="(240,300)" to="(1400,300)"/>
+    <wire from="(240,320)" to="(1400,320)"/>
+    <wire from="(240,340)" to="(1400,340)"/>
+    <wire from="(240,360)" to="(1400,360)"/>
+    <wire from="(240,380)" to="(1400,380)"/>
+    <wire from="(290,850)" to="(300,850)"/>
+    <wire from="(300,850)" to="(300,1000)"/>
+    <wire from="(300,850)" to="(400,850)"/>
+    <wire from="(400,850)" to="(400,1000)"/>
+    <wire from="(400,850)" to="(500,850)"/>
+    <wire from="(500,850)" to="(500,1000)"/>
+    <wire from="(500,850)" to="(600,850)"/>
+    <wire from="(600,850)" to="(600,1000)"/>
+    <wire from="(600,850)" to="(700,850)"/>
+    <wire from="(700,850)" to="(700,1000)"/>
+    <wire from="(700,850)" to="(800,850)"/>
+    <wire from="(800,850)" to="(800,1000)"/>
+    <wire from="(800,850)" to="(900,850)"/>
+    <wire from="(900,850)" to="(1000,850)"/>
+    <wire from="(900,850)" to="(900,1000)"/>
   </circuit>
 </project>
