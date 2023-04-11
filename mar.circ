@@ -141,9 +141,6 @@
       <a name="facing" val="west"/>
       <a name="spacing" val="2"/>
     </comp>
-    <comp lib="0" loc="(1300,1270)" name="Clock">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="0" loc="(1500,470)" name="Splitter">
       <a name="appear" val="right"/>
       <a name="bit1" val="0"/>
@@ -406,11 +403,10 @@
     <wire from="(1230,1130)" to="(1230,1660)"/>
     <wire from="(1250,610)" to="(1250,1490)"/>
     <wire from="(1270,570)" to="(1350,570)"/>
-    <wire from="(1300,1270)" to="(1300,1310)"/>
     <wire from="(1300,1310)" to="(1300,1540)"/>
     <wire from="(1300,1310)" to="(1470,1310)"/>
     <wire from="(1300,1540)" to="(1310,1540)"/>
-    <wire from="(1300,50)" to="(1300,1270)"/>
+    <wire from="(1300,50)" to="(1300,1310)"/>
     <wire from="(1310,1560)" to="(1310,1710)"/>
     <wire from="(1350,470)" to="(1350,570)"/>
     <wire from="(1350,470)" to="(1500,470)"/>
